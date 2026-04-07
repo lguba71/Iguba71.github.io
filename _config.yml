@@ -8,25 +8,22 @@ description: >
   Mechanical engineering notes, machine design concepts,
   and production improvement projects.
 url: "https://lguba71.github.io"
+baseurl: ""
 
 github:
   username: lguba71
-twitter:
-  username: twitter_username # change to your Twitter username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Lajos Guba
   email: lguba71@hotmail.com
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+    - https://www.github/.com/lguba71  
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/lajos-guba
 
 # Site Verification Settings
 webmaster_verifications:
