@@ -136,6 +136,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  notes:
+    output: true
+    permalink: /notes/:title/
 
 defaults:
   - scope:
@@ -158,6 +161,13 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: post
+      comments: false
+      toc: false      
 
 sass:
   style: compressed
