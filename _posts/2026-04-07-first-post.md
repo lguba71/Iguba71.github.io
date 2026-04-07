@@ -1,6 +1,6 @@
 ---
 title: Why Simpler Machine Concepts Often Win
-date: 2026-04-07 18:00:00 +0200
+date: 2026-04-07 09:00:00 +0200
 categories: [Engineering, Design]
 tags: [machine-design, reliability, manufacturing]
 ---
