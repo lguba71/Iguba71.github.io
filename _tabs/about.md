@@ -16,3 +16,11 @@ My main areas:
 - productivity improvement
 
 This site contains engineering notes, projects, and technical articles.
+
+---
+
+Beyond engineering:
+- DIY projects
+- Photography
+- Writing
+- [Travel notes](https://lguba71.github.io/TravelNotes/)
