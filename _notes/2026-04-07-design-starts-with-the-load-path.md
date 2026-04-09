@@ -1,7 +1,7 @@
 ---
 title: Design Starts with the Load Path
 date: 2026-04-07 10:00:00 +0200
-tags: [machine-design, reliability manufacturing]
+tags: [machine-design, reliability, manufacturing]
 ---
 
 Many mechanical problems start before material selection.
