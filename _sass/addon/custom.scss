@@ -1,34 +1,107 @@
+/* ---- Alapszínek ---- */
+
+body {
+  background-color: #F4F6F8 !important;
+  color: #1E2430 !important;
+}
+
+#main-wrapper,
+#topbar-wrapper,
+#search-result-wrapper,
+#page-wrapper {
+  background-color: #F4F6F8 !important;
+}
+
+/* ---- Sidebar ---- */
+
 #sidebar {
   background-color: #EAF0F4 !important;
+  border-right: 1px solid #D8E0E8 !important;
 }
 
 #sidebar .site-title,
 #sidebar .site-title a {
   color: #23425F !important;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 #sidebar .site-subtitle {
   color: #5B6B7A !important;
 }
 
+#sidebar ul .nav-item.active .nav-link,
 #sidebar .nav-link.active {
   background-color: #D8E4EA !important;
   color: #23425F !important;
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
-a {
-  color: #2E8C8C;
+#sidebar .nav-link:hover {
+  background-color: #E1EBF0 !important;
+  color: #2E8C8C !important;
+  border-radius: 10px !important;
 }
 
-a:hover {
-  color: #C97A3D;
+#sidebar .nav-link,
+#sidebar .nav-link span,
+#sidebar .nav-link i {
+  color: #4F5F70 !important;
 }
+
+/* ---- Linkek ---- */
+
+a,
+#main-wrapper a,
+.post-content a {
+  color: #2E8C8C !important;
+}
+
+a:hover,
+#main-wrapper a:hover,
+.post-content a:hover {
+  color: #C97A3D !important;
+}
+
+/* ---- Post preview / kártyák ---- */
 
 .post-preview,
+.post-preview .card,
 .card,
-.content .panel-wrapper,
-.content .post-content {
-  border-radius: 12px;
+.panel-wrapper,
+.content .post-content,
+#post-list .card {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E3E8ED !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 14px rgba(35, 66, 95, 0.06) !important;
+}
+
+/* ---- Címek ---- */
+
+h1, h2, h3, h4 {
+  color: #23425F !important;
+}
+
+/* ---- Felső kereső és topbar finomhangolás ---- */
+
+#topbar,
+.topbar,
+#search-wrapper {
+  background-color: #F4F6F8 !important;
+}
+
+input,
+#search-input {
+  border: 1px solid #D7E0E7 !important;
+  border-radius: 999px !important;
+  background-color: #FFFFFF !important;
+}
+
+/* ---- Ikonok / footer ---- */
+
+footer,
+footer a,
+#footer,
+#footer a {
+  color: #6A7785 !important;
 }
