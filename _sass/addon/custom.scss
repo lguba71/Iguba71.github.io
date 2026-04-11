@@ -1,0 +1,34 @@
+#sidebar {
+  background-color: #EAF0F4 !important;
+}
+
+#sidebar .site-title,
+#sidebar .site-title a {
+  color: #23425F !important;
+  font-weight: 700;
+}
+
+#sidebar .site-subtitle {
+  color: #5B6B7A !important;
+}
+
+#sidebar .nav-link.active {
+  background-color: #D8E4EA !important;
+  color: #23425F !important;
+  border-radius: 10px;
+}
+
+a {
+  color: #2E8C8C;
+}
+
+a:hover {
+  color: #C97A3D;
+}
+
+.post-preview,
+.card,
+.content .panel-wrapper,
+.content .post-content {
+  border-radius: 12px;
+}
