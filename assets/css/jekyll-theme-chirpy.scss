@@ -1,7 +1,4 @@
 ---
 ---
 
-@use 'main
-{
-  @include init;
-}
+@import "main.bundle";
